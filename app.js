@@ -1,13 +1,11 @@
-const express = require('express');
+const express = require("express");
 
 const app = express();
 
+app.get("/", (req, res) => {
+  res.send("Welcome...");
+});
 
-app.get("/",(req, res)=>{
-    res.send("Welcome...")
-})
-
-app.listen(7170,()=>{
-    console.log("Service running...")
-})
-hi
+app.listen(7170, () => {
+  console.log("Service running...");
+});
