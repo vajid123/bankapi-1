@@ -9,4 +9,3 @@ app.get("/", (req, res) => {
 app.listen(7170, () => {
   console.log("Service running...");
 });
-hello;
